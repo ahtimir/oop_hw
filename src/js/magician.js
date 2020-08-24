@@ -1,8 +1,8 @@
 import Character from './character';
 
 export default class Magician extends Character {
-  constructor(...properties) {
-    super(...properties);
+  constructor(...rest) {
+    super(...rest);
     this.type = 'Magician';
     this.health = 100;
     this.level = 1;
